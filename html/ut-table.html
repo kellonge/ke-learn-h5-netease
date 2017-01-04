@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>运费详情</title>
+    <style type="text/css">
+    body {
+        font-size: 16px;
+        font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+    }
+    
+    table {
+        color: #676767;
+        border-collapse: collapse;
+    }
+    
+    table,
+    th,
+    td {
+        border: 1px solid #e6e6e6;
+    }
+    
+    th,
+    td {
+        padding: 20px;
+    }
+    
+    table .title {
+        background-color: #f7f7f7;
+        font-weight: bolder;
+    }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption style="font-weight: bolder; margin: 10px;">运费详情</caption>
+        <tr>
+            <th class="title">区域</th>
+            <th class="title">寄达地</th>
+            <th class="title">首重（元/1000g）</th>
+            <th class="title">续重（元/1000g）</th>
+        </tr>
+        <tr>
+            <td class="title" rowspan="2">一区</td>
+            <td>浙江、上海、苏州</td>
+            <td>6</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>江西、安徽</td>
+            <td>7</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td class="title">二区</td>
+            <td>吉林、黑龙江、云南</td>
+            <td>10</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td class="title">三区</td>
+            <td>新疆、西藏</td>
+            <td>15</td>
+            <td>10</td>
+        </tr>
+    </table>
+</body>
+
+</html>

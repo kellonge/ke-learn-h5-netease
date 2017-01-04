@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+    <style type="text/css">
+    body {
+        font-size: 16px;
+        font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+    }
+    
+    form p {
+        margin: 30px 0px;
+    }
+    
+    form p lable {
+        width: 50px;
+        vertical-align: top;
+        display: inline-block;
+    }
+    
+    #submit {
+        background-color: #d853b7;
+        border: none;
+        color: white;
+        padding: 10px 30px;
+    }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <p>
+            <lable>头像</lable>
+            <input type="file">
+        </p>
+        <p>
+            <lable>昵称</lable>
+            <input type="text">
+        </p>
+        <p>
+            <lable>学历</lable>
+            <select name="" id="">
+                <option value="" selected="selected">大专</option>
+                <option value="">本领</option>
+            </select>
+        </p>
+        <p>
+            <lable>性别</lable>
+            <input type="radio" name="sex" value="male" checked="checked" /> 男
+            <input type="radio" name="sex" value="female" /> 女
+        </p>
+        <p>
+            <lable>爱好</lable>
+            <input type="checkbox" name="" checked="checked">电影
+            <input type="checkbox" name="">摄影
+            <input type="checkbox" name="">音乐
+            <input type="checkbox" name="" checked="checked">阅读
+        </p>
+        <p>
+            <lable>签名</lable>
+            <textarea rows="5" cols="30"></textarea>
+        </p>
+        <p>
+            <lable></lable>
+            <input id="submit" type="submit" value="保存">
+        </p>
+    </form>
+</body>
+
+</html>
