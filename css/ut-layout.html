@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>布局效果</title>
+    <style type="text/css">
+    body {
+        font-size: 16px;
+        font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+    }
+    
+    .parent {
+        margin: 0 auto;
+        width: 810px;
+        *zoom: 1;
+    }
+    
+    .parent .side,
+    .parent .main {
+        color: white;
+        padding: 20px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    .parent:after {
+        content: ".";
+        display: block;
+        height: 0;
+        visibility: hidden;
+        clear: both;
+    }
+    
+    .side {
+        width: 200px;
+        float: left;
+        background-color: #be0712;
+    }
+    
+    .main {
+        width: 600px;
+        float: right;
+        background-color: #5182bb;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="side">侧栏</div>
+        <div class="main">主栏</div>
+    </div>
+    <p>ds</p>
+</body>
+
+</html>
